@@ -1,0 +1,265 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+body {
+	background: #162e17;
+}
+
+.exit-button {
+	cursor: pointer;
+	position: fixed;
+	top: 40px;
+	left: 20px;
+	border-radius: 25px;
+	width: auto;
+	height: 40px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: distribute;
+	justify-content: space-around;
+	-ms-flex-line-pack: center;
+	align-content: center;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	background: #139a43;
+}
+
+.exit-button a {
+	text-decoration: none;
+	color: white;
+	margin: 15px;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	outline: none;
+}
+
+.exit-button:active {
+	-webkit-animation: goBack 0.6s;
+	animation: goBack 0.6s;
+}
+
+.title-name {
+	font-size: 150px;
+	font-family: 'Dancing Script', cursive;
+	color: white;
+	text-transform: uppercase;
+	padding-top: 120px;
+	padding-bottom: 0;
+}
+
+.title-nick-name {
+	font-size: 30px;
+	font-family: 'Dancing Script', cursive;
+	text-transform: uppercase;
+	color: #139a43;
+	padding-top: 0;
+	padding-bottom: 80px;
+}
+
+.content-name {
+	font-size: 28px;
+	font-family: 'Dancing Script', cursive;
+	color: white;
+	padding-bottom: 50px;
+}
+
+.scroll-down {
+	position: absolute;
+	left: 50%;
+	bottom: 20px;
+	width: 40px;
+	height: 40px;
+	-webkit-transform: translateX(-50%) rotate(45deg);
+	-ms-transform: translateX(-50%) rotate(45deg);
+	transform: translateX(-50%) rotate(45deg);
+}
+
+.scroll-down .arrow {
+	display: block;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	border-bottom: 2px solid #139a43;
+	border-right: 2px solid #139a43;
+	width: 100%;
+	height: 100%;
+	-webkit-animation: blinking 1.5s linear infinite;
+	animation: blinking 1.5s linear infinite;
+}
+
+.scroll-down #arrow-1 {
+	-webkit-transform: translate(-30px, -30px);
+	-ms-transform: translate(-30px, -30px);
+	transform: translate(-30px, -30px);
+	-webkit-animation-delay: 0.4s;
+	animation-delay: 0.4s;
+}
+
+.scroll-down #arrow-2 {
+	-webkit-transform: translate(-15px, -15px);
+	-ms-transform: translate(-15px, -15px);
+	transform: translate(-15px, -15px);
+	-webkit-animation-delay: 0.2s;
+	animation-delay: 0.2s;
+}
+
+.scroll-down #arrow-3 {
+	-webkit-transform: translate(0, 0);
+	-ms-transform: translate(0, 0);
+	transform: translate(0, 0);
+	-webkit-animation-delay: 0;
+	animation-delay: 0;
+}
+
+@-webkit-keyframes blinking {
+	0% {
+		top: -5px;
+		left: -5px;
+		opacity: 0;
+	}
+
+	25% {
+		top: 0px;
+		left: 0px;
+		opacity: 1;
+	}
+
+	50%,
+	100% {
+		top: 5px;
+		left: 5px;
+		opacity: 0;
+	}
+}
+
+@keyframes blinking {
+	0% {
+		top: -5px;
+		left: -5px;
+		opacity: 0;
+	}
+
+	25% {
+		top: 0px;
+		left: 0px;
+		opacity: 1;
+	}
+
+	50%,
+	100% {
+		top: 5px;
+		left: 5px;
+		opacity: 0;
+	}
+}
+
+@-webkit-keyframes goBack {
+	0% {
+		left: 20px;
+		opacity: 1;
+	}
+
+	50% {
+		left: 10px;
+		opacity: 0.5;
+	}
+}
+
+@keyframes goBack {
+	0% {
+		left: 20px;
+		opacity: 1;
+	}
+
+	50% {
+		left: 10px;
+		opacity: 0.5;
+	}
+}
+
+.guide {
+	position: absolute;
+	top: 850px;
+	margin: 5vw;
+	font-family: 'Playfair Display', serif;
+}
+
+.guide ul {
+	list-style-type: upper-roman;
+	font-family: 'Playfair Display', serif;
+	font-size: 24px;
+	color: #139a43;
+}
+
+.guide-title {
+	margin-bottom: 20px;
+}
+
+.guide-content {
+	font-size: 18px;
+	color: white;
+	margin: 20px;
+	letter-spacing: 2px;
+}
+
+.guide ul li {
+	list-style: upper-roman;
+	font-family: 'Playfair Display', serif;
+}
+
+.spell-container {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-pack: left;
+	-ms-flex-pack: left;
+	justify-content: left;
+	-webkit-box-align: left;
+	-ms-flex-align: left;
+	align-items: left;
+	width: 100%
+}
+
+.or {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	flex-direction: row;
+}
+
+.or h2 {
+	font-size: 20px;
+	color: white;
+	-webkit-transform: translateY(40px);
+	-ms-transform: translateY(40px);
+	transform: translateY(40px);
+}
+
+.spell {
+	max-width: 75px;
+	max-height: 75px;
+	margin: 30px 2vw;
+}
+
+.guide p {
+	color: white;
+	font-size: 18px;
+	font-family: 'Playfair Display', serif;
+	margin: 25px 0;
+}

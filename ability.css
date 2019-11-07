@@ -1,0 +1,178 @@
+.content-container table {
+  width: 50%;
+  border: 2px solid #0dab76;
+  margin: 0;
+  padding: 0;
+  float: left;
+  margin-top: 90px;
+  height: 685px;
+  color: white;
+}
+
+.content-container th {
+  border: 2px solid #0dab76;
+  width: 50%;
+}
+
+.stats-container {
+  text-transform: capitalize;
+  height: 685px;
+}
+
+.name1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 50px;
+}
+
+.name2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+}
+
+.stats-label {
+  display: block;
+  text-align: left;
+  padding-left: 15%;
+}
+
+.stats-val {
+  display: block;
+  text-align: left;
+  padding-left: 15%;
+}
+
+.stats-hp {
+  background: url(/IMG/stat-icons-sprite.png) no-repeat 5% -150px;
+}
+
+.stats-attack-damage {
+  background: url(/IMG/stat-icons-sprite.png) no-repeat 5% 0px;
+}
+
+.stats-attack-speed {
+  background: url(/IMG/stat-icons-sprite.png) no-repeat 5% -50px;
+}
+
+.stats-movement-speed {
+  background: url(/IMG/stat-icons-sprite.png) no-repeat 5% -75px;
+}
+
+.stats-health-regen {
+  background: url(/IMG/stat-icons-sprite.png) no-repeat 5% -175px;
+}
+
+.stats-armor {
+  background: url(/IMG/stat-icons-sprite.png) no-repeat 5% -25px;
+}
+
+.stats-magic-resist {
+  background: url(/IMG/stat-icons-sprite.png) no-repeat 5% -125px;
+}
+
+.skill-container {
+  height: 685px;
+}
+
+.skill-container th {
+  font-family: 'Playfair Display', serif;
+  font-size: 14px;
+}
+
+.skill-container:hover img {
+  opacity: 0.3;
+  box-shadow: 0px 0px 40px 11px black;
+}
+
+.skill-container:hover th {
+  color: transparent;
+  text-shadow: 0 0 3px #aaa;
+}
+
+.skill-container:hover tr:hover img {
+  opacity: 1;
+  box-shadow: 0px 0px 40px 11px white;
+}
+
+.skill-container:hover tr:hover th {
+  color: white;
+  text-shadow: 0 0 0 #fff;
+}
+
+.skill-container img {
+  height: 75px;
+}
+
+.skill-container .skill-img-container {
+  width: 0.5%;
+}
+
+.skill-container .skill-des-container p {
+  text-align: left;
+  padding-left: 5%;
+}
+
+.skill-container td {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  padding-left: 5%;
+  text-align: left;
+}
+
+.skill-des-stat-container {
+  margin-top: 700px;
+}
+
+.skill-des-stat-container table {
+  width: 100%;
+  border: 2px solid white;
+}
+
+.skill-des-stat-container td {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  padding-left: 1%;
+  text-align: left;
+  color: white;
+}
+
+.skill-des-stat-container th {
+  border: 2px solid white;
+}
+
+.skill-des-stat-container .skill-img-container {
+	width: 10%;
+	height: 15vh;
+}
+
+.skill-des-stat-container .skill-img-container .skill-img {
+  height: 75px;
+}
+
+.skill-des-stat-container .skill-des-container p {
+  font-family: 'Playfair Display', serif;
+  margin-left: 2%;
+  text-align: left;
+	color: white;
+}
+
+.skill-des-stat-container:hover img {
+  opacity: 0.3;
+  box-shadow: 0px 0px 40px 11px black;
+}
+
+.skill-des-stat-container:hover p {
+  color: transparent;
+  text-shadow: 0 0 3px #aaa;
+}
+
+.skill-des-stat-container:hover tr:hover img {
+  opacity: 1;
+  box-shadow: 0px 0px 40px 11px white;
+  height: 105px;
+}
+
+.skill-des-stat-container:hover tr:hover p {
+  color: white;
+  text-shadow: 0 0 0 #fff;
+  font-size: 20px;
+}

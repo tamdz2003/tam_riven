@@ -1,0 +1,77 @@
+* {
+	-webkit-transition: all 0.6s ease;
+	-o-transition: all 0.6s ease;
+	transition: all 0.6s ease;
+}
+
+.read {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(35%, #44c767), to(#5cbf2a));
+	background: -o-linear-gradient(top, #44c767 35%, #5cbf2a 100%);
+	background: linear-gradient(to bottom, #44c767 35%, #5cbf2a 100%);
+	background-color: #44c767;
+	border-radius: 28px;
+	border: 1px solid #18ab29;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: 'Playfair Display', serif;
+	font-size: 21px;
+	font-weight: bold;
+	padding: 16px 31px;
+	text-decoration: none;
+	text-shadow: -2px 2px 3px #2f6627;
+}
+
+.read:hover {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(55%, #5cbf2a), to(#44c767));
+	background: -o-linear-gradient(top, #5cbf2a 55%, #44c767 100%);
+	background: linear-gradient(to bottom, #5cbf2a 55%, #44c767 100%);
+	background-color: #5cbf2a;
+}
+
+.read:active {
+	top: 1px;
+}
+
+.links {
+	width: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	margin-top: 100px;
+}
+
+.links div {
+	width: 90%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	background: #29752c;
+	margin-bottom: 40px;
+	padding: 30px 0;
+	border: 2px solid #0dab76;
+}
+
+.links .content {
+	color: #15f43a;
+	font-family: 'Playfair Display', serif;
+}

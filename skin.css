@@ -1,0 +1,168 @@
+* {
+	-webkit-transition: all 0.6s ease;
+	-o-transition: all 0.6s ease;
+	transition: all 0.6s ease;
+}
+
+.skin-gallary {
+	margin-top: 150px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	width: 100%;
+}
+
+.skin-gallary h1 {
+	font-size: 70px;
+	font-family: 'Dancing Script', cursive;
+	color: #0dab76;
+}
+
+/* Style the Image Used to Trigger the Modal */
+#myImg {
+	cursor: pointer;
+	-webkit-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
+	width: 70%;
+	height: auto;
+}
+
+#myImg:hover {
+	opacity: 0.7;
+}
+
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 5000;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgb(0, 0, 0);
+	background-color: rgba(0, 0, 0, 0.9);
+}
+
+.modal-content {
+	margin: auto;
+	display: block;
+	width: 90%;
+}
+
+.modal-content {
+	-webkit-animation-name: zoom;
+	animation-name: zoom;
+	-webkit-animation-duration: 0.6s;
+	animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+	from {
+		-webkit-transform: scale(0);
+		transform: scale(0)
+	}
+
+	to {
+		-webkit-transform: scale(1);
+		transform: scale(1)
+	}
+}
+
+@keyframes zoom {
+	from {
+		-webkit-transform: scale(0);
+		transform: scale(0)
+	}
+
+	to {
+		-webkit-transform: scale(1);
+		transform: scale(1)
+	}
+}
+
+.close {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	color: #f1f1f1;
+	font-size: 40px;
+	font-weight: bold;
+	-webkit-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+	color: #bbb;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.switch-image {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-ms-flex-pack: distribute;
+	justify-content: space-around;
+	width: 100%;
+}
+
+.switch-image-button {
+	cursor: pointer;
+	position: relative;
+	bottom: 5px;
+	width: 100px;
+	height: 40px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	background: #0dab76;
+	margin: 20px;
+	padding: 5px;
+	border-radius: 25px;
+	-ms-flex-pack: distribute;
+	justify-content: space-around;
+	opacity: 1;
+}
+
+.switch-image-button:active {
+	opacity: 0.5;
+}
+
+.pre-button:active {
+	-webkit-transform: translateX(-15px);
+	-ms-transform: translateX(-15px);
+	transform: translateX(-15px);
+}
+
+.next-button:active {
+	-webkit-transform: translateX(15px);
+	-ms-transform: translateX(15px);
+	transform: translateX(15px);
+}
