@@ -149,7 +149,7 @@ p {
 
 .short-story ul li:nth-child(1)::after {
   content: "";
-  background-image: url(/IMG/story1.jpg);
+  background-image: url(IMG/story1.jpg);
   background-size: cover;
   opacity: 0.5;
   position: absolute;
@@ -162,7 +162,7 @@ p {
 
 .short-story ul li:nth-child(2)::after {
   content: "";
-  background-image: url(/IMG/story2.jpg);
+  background-image: url(IMG/story2.jpg);
   background-size: cover;
   opacity: 0.5;
   position: absolute;
@@ -175,7 +175,7 @@ p {
 
 .short-story ul li:nth-child(3)::after {
   content: "";
-  background-image: url(/IMG/story3.jpg);
+  background-image: url(IMG/story3.jpg);
   background-size: cover;
   opacity: 0.5;
   position: absolute;

@@ -16,17 +16,17 @@ body {
       color-stop(15%, rgba(0, 0, 0, 0)),
       color-stop(30%, rgba(10, 10, 12, 0.1)),
       color-stop(90%, #0a0a0c)),
-    url(/IMG/Riven-photo-info.png);
+    url(IMG/Riven-photo-info.png);
   background: -o-linear-gradient(top,
       rgba(0, 0, 0, 0) 15%,
       rgba(10, 10, 12, 0.1) 30%,
       #0a0a0c 90%),
-    url(/IMG/Riven-photo-info.png);
+    url(IMG/Riven-photo-info.png);
   background: linear-gradient(180deg,
       rgba(0, 0, 0, 0) 15%,
       rgba(10, 10, 12, 0.1) 30%,
       #0a0a0c 90%),
-    url(/IMG/Riven-photo-info.png);
+    url(IMG/Riven-photo-info.png);
   background-size: cover;
   width: 100%;
   height: 70vh;

@@ -42,31 +42,31 @@
 }
 
 .stats-hp {
-  background: url(/IMG/stat-icons-sprite.png) no-repeat 5% -150px;
+  background: url(IMG/stat-icons-sprite.png) no-repeat 5% -150px;
 }
 
 .stats-attack-damage {
-  background: url(/IMG/stat-icons-sprite.png) no-repeat 5% 0px;
+  background: url(IMG/stat-icons-sprite.png) no-repeat 5% 0px;
 }
 
 .stats-attack-speed {
-  background: url(/IMG/stat-icons-sprite.png) no-repeat 5% -50px;
+  background: url(IMG/stat-icons-sprite.png) no-repeat 5% -50px;
 }
 
 .stats-movement-speed {
-  background: url(/IMG/stat-icons-sprite.png) no-repeat 5% -75px;
+  background: url(IMG/stat-icons-sprite.png) no-repeat 5% -75px;
 }
 
 .stats-health-regen {
-  background: url(/IMG/stat-icons-sprite.png) no-repeat 5% -175px;
+  background: url(IMG/stat-icons-sprite.png) no-repeat 5% -175px;
 }
 
 .stats-armor {
-  background: url(/IMG/stat-icons-sprite.png) no-repeat 5% -25px;
+  background: url(IMG/stat-icons-sprite.png) no-repeat 5% -25px;
 }
 
 .stats-magic-resist {
-  background: url(/IMG/stat-icons-sprite.png) no-repeat 5% -125px;
+  background: url(IMG/stat-icons-sprite.png) no-repeat 5% -125px;
 }
 
 .skill-container {
